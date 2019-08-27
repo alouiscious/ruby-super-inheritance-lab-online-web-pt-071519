@@ -20,9 +20,7 @@ class ChattyStudent < Student
     super
  
     @raise_hand = true
-    10.times super do |phrase| 
-binding.pry 
-      puts phrase
+    10.times do super end
     end
 
     puts "Pick me!" 
