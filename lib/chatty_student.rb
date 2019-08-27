@@ -21,7 +21,6 @@ class ChattyStudent < Student
  
     @raise_hand = true
     10.times do super end
-    end
 
     puts "Pick me!" 
    
