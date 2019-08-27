@@ -17,10 +17,8 @@ class ChattyStudent < Student
   end 
 
   def raise_hand
-    super
- 
-    @raise_hand = true
     10.times do super end
+    @raise_hand = true
 
     puts "Pick me!" 
    
